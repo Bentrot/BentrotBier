@@ -9,12 +9,12 @@
 		<h1>Bentrot Bier Server v3</h1>
 		<h3>Michael Hop</h3>
 	    	Dagen zonder frustraties van Put
-	    <?php
-	    $now = time(); // or your date as well
+<?php
+$now = time(); // or your date as well
 $your_date = strtotime("2019-11-23");
 $datediff = $now - $your_date;
 echo round($datediff / (60 * 60 * 24));
-	    ?>
+?>
 	    
         <div>
             <img src="grolsch.jpg" alt="myPic" />
